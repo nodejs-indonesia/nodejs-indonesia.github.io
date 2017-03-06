@@ -1,0 +1,16 @@
+//reference https://codepen.io/martinkrulltott/pen/bVRGKq?editors=0100#0
+@mixin generate-spacing($type, $direction){
+  	@each $space in $spacing {
+	  %#{$type}-#{$direction}-#{$space}{
+		#{$type}-#{$direction}: $space*1px;
+	  }
+	}
+}
+
+@mixin generate-spacing-with-class($type, $direction){
+	@each $space in $spacing {
+		.#{$type}-#{$direction}-#{$space}{
+			#{$type}-#{$direction}: $space*1px;
+		}
+	}
+}
