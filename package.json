@@ -1,0 +1,31 @@
+{
+  "name": "nodejs-indonesia.github.io",
+  "description": "A GitHub page as a home page of NodeJs Indonesia ",
+  "homepage": "https://nodejs-indonesia.github.io/",
+  "version": "0.0.1",
+  "author": "NodeJs Indonesia (https://github.com/nodejs-indonesia)",
+  "scripts": {
+    "start": "gulp",
+    "update-shrinkwrap": "npm shrinkwrap --dev && shx mv ./npm-shrinkwrap.json",
+    "build:prod": "gulp prod",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-connect": "^5.0.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.4.0",
+    "gulp-watch": "^4.3.11"
+  }
+}
