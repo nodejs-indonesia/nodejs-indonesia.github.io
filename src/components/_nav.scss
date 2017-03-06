@@ -1,0 +1,30 @@
+.nav{
+		
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    a{
+    	text-decoration: none;
+    	color: #fff;
+    	font-size: 3.5rem;
+        font-family: 'Forum', cursive;
+    }
+
+	&__item{
+		padding: 1.5em;
+	}
+
+	&__logo{        
+		background-color: #fff;
+    	border-radius: .5em;
+    	height: 60px;
+    	padding: .4em;
+    	margin-left: 1.5em;
+
+    	img{
+    		height: 50px;
+    	}
+	}
+
+}

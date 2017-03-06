@@ -1,0 +1,7 @@
+.footer{
+	@include row();
+	text-align: center;
+	font-size: 1.5rem;
+    color: #999;
+    margin-top: 50px;
+}
