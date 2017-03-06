@@ -1,0 +1,107 @@
+/*
+* Refer to https://confluence.gdn-app.com/display/PM/Blibli+Design+Language+System?preview=/22261571/22273721/Colour%20Pallete.png
+*
+* Please following this convention variable naming
+* http://thesassway.com/beginner/variable-naming
+*/
+
+//monochrome color
+$white 			: #fff !default;
+$black 			: #000 !default;
+
+//primary pallete
+$blue 			: #0096D9 !default;
+$orange			: #F7931E !default;
+
+//secondary pallete
+$green			: #00B35E !default;
+$lime			: #89C747 !default;
+$red			: #F8011E !default;
+$magenta		: #F50089 !default;
+
+//child pallete
+$light-blue 		: #E5F4FB;
+$light-blue-a3		: #A3CFE2;
+//$medium-blue 	: #000 !default;
+$dark-blue 			: darken($blue, 10%) !default;
+
+$light-green 	: lighten($green, 10%) !default;
+//$medium-green 	: #000 !default;
+$dark-green 	: darken($green, 10%) !default;
+
+$light-lime 	: #F3F9EC;
+//$medium-lime 	: #000 !default;
+$dark-lime		: darken($lime, 10%) !default;
+
+$light-orange 	: #FEF4E8;
+//$medium-orange	: #000 !default;
+$dark-orange	: darken($orange, 10%) !default;
+
+$light-red		: #FFEFF1;
+//$medium-red 	: #000 !default;
+$dark-red		: darken($red, 10%) !default;
+
+$light-magenta 	: lighten($magenta, 10%) !default;
+//$medium-magenta : #000 !default;
+$dark-magenta	: darken($magenta, 10%) !default;
+
+$light-yellow	: #fffee7;
+
+//gray palletefont
+$lightest-gray	: #F2F2F2;
+$light-gray		: #CCCCCC;
+$gray			: #999999;
+$dark-gray		: #666666;
+$darkest-gray	: #333333;
+
+//category pallete
+$galeri-indonesia	: #B82837;
+$handphone-tablet	: #EF413D;
+$computer-laptop	: #3255A6;
+$camera				: #A6CE39;
+$electronics		: #B64B85;
+$male-fashion		: #0095DA;
+$mother-baby		: #FDB813;
+$female-fashion		: #EC008C;
+$health-beauty		: #7251A1;
+$hobby-sports		: #00B9AD;
+$automotive			: #3483AA;
+$culinary			: #F37021;
+$toys-games			: #0ABAEE;
+$home-living		: #FFED00;
+$ticket-voucher		: #3AA935;
+
+//social media pallete
+$facebook-color     : #4C66A4;
+$googleplus-color   : #DD4B39;
+$pinterest-color    : #CB2027;
+$twitter-color      : #2FC2EF;
+$youtube-color      : #CD201F;
+$instagram-color    : #262626;
+
+// array of colors varians
+$color-varians-name    : white, black, blue, green, lime, orange, red, magenta, lightest-gray, light-gray, gray, dark-gray, darkest-gray,
+						  galeri-indonesia, handphone-tablet, computer-laptop, camera, electronics,
+						  male-fashion, mother-baby, female-fashion, health-beauty, hobby-sports, automotive,
+						  culinary, culinary, toys-games, home-living, ticket-voucher, facebook-color, googleplus-color,
+						  pinterest-color, twitter-color, youtube-color, instagram-color;
+$color-varians-hex     : $white, $black, $blue, $green, $lime, $orange, $red, $magenta, $lightest-gray, $light-gray, $gray, $dark-gray,
+						  $darkest-gray, $galeri-indonesia, $handphone-tablet, $computer-laptop, $camera, $electronics,
+						  $male-fashion, $mother-baby, $female-fashion, $health-beauty, $hobby-sports, $automotive,
+						  $culinary, $culinary, $toys-games, $home-living, $ticket-voucher,$facebook-color,
+						  $googleplus-color, $pinterest-color, $twitter-color, $youtube-color, $instagram-color;
+
+
+// array of buttons varians
+$button-varians-name    : blue, green, lime, orange, red, magenta;
+$button-varians-hex     : $blue, $green, $lime, $orange, $red, $magenta;
+$button-varians-hover   : $light-blue, $light-green, $light-lime, $light-orange, $light-red, $light-magenta;
+$button-varians-font    : $white, $white, $white, $white, $black, $black;
+
+//array of background varians
+$background-varians-name 	: lightest-gray, light-gray, light-blue, light-lime, light-orange, light-yellow, light-red;
+$background-varians-hex 	: $lightest-gray, $light-gray, $light-blue, $light-lime, $light-orange, $light-yellow, $light-red;
+
+//array of border varians
+$border-varians-name 	: light-gray, gray, light-blue-a3, blue, green, red, orange;
+$border-varians-hex 	: $light-gray, $gray, $light-blue-a3, $blue, $green, $red, $orange;

@@ -1,0 +1,19 @@
+
+// GENERAL VARIABLES
+$prefix     : 'bds-';
+
+
+// GRID VARIABLES
+// total column in one row is 12
+$column-count 		  : 12 !default;
+$break-point-desktop  : 768 !default;
+$break-point-tablet	  : 600 !default;
+
+$grid-container-xl    : 1370px !default;
+$grid-container-l     : 1170px !default;
+$grid-container-m     : 950px !default;
+$grid-container-s     : 100% !default;
+
+$direction	: center, right, left;
+$spacing	: 0, 5, 10, 15, 20, 40, 80;
+$type		: margin, padding;
