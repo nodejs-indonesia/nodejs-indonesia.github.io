@@ -1,0 +1,14 @@
+html {
+    @include box-sizing(border-box);
+    font-size: 62.5%;
+  	-ms-overflow-style: scrollbar;
+  	-webkit-tap-highlight-color: transparent;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 14px;
+	line-height: 24px;
+	font-family: 'Quicksand', sans-serif;
+}

@@ -1,0 +1,60 @@
+/*
+* Read RWD : http://www.w3schools.com/css/css_rwd_intro.asp
+*/
+
+
+// if you prefer using extends than mixin
+%clearfix{
+  @include clearfix();
+}
+
+
+// container must be mobile first
+%container{
+  margin: 0 auto;
+  width: 100%;
+}
+
+// use row from foundation
+%row {
+  @include clearfix();
+  margin: 0 auto;
+}
+
+// basic flex usage
+%flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+@for $i from 1 through $column-count {
+
+  // mobile first -- col must be 100%
+  %col-#{$i}{
+    float: left;
+    width: 100%;
+
+    // for desktop column
+    @media only screen and (min-width: #{$break-point-desktop}px) {
+      width: ((100/$column-count) * $i) *1%;
+    }
+
+  }
+
+  // tablet usage -- you can use two class for responsive ex: col-6 col-m-12
+  %col-m-#{$i}{
+    float: left;
+
+    @media only screen and (min-width: #{$break-point-tablet}px) {
+      width: ((100/$column-count) * $i) *1%;
+    }
+
+  }
+
+  // offset will adding margin in left
+  %offset-#{$i}{
+    margin-left: ((100/$column-count) * $i) *1%;
+  }
+}
