@@ -5,7 +5,7 @@ var autoprefixer = require('gulp-autoprefixer');
 var clean = require('gulp-clean');
 var connect = require('gulp-connect');
 
-var inputSass = ['./src/**/*.scss'];
+var inputSass = ['./scss/**/*.scss'];
 var outpoutSass = './dist';
 
 var autoprefixerOptions = {
@@ -45,7 +45,7 @@ gulp.task('html', function () {
 
 gulp.task('watch', function() {
     return gulp
-        .watch(['./src/**/*.scss', './*.html'], ['sass', 'html'])
+        .watch(['./scss/**/*.scss', './*.html'], ['sass', 'html'])
         .on('change', function(event) {
             console.log('File ' + event.path + ' was ' + event.type + ', running tasks...');
         });
