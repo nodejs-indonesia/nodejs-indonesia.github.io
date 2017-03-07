@@ -1,4 +1,4 @@
-import { Component, ViewEncapsulation} from '@angular/core';
+import {Component, ViewEncapsulation, OnInit} from '@angular/core';
 
 @Component({
   selector: 'my-app',
@@ -21,7 +21,7 @@ import { Component, ViewEncapsulation} from '@angular/core';
       </div>
   `
 })
-export class AppComponent { 
+export class AppComponent{
 	title: string;
 	subTitle: string;
   logoUrl: string;
@@ -31,4 +31,5 @@ export class AppComponent {
       this.subTitle = "Indonesian NodeJs Developer Community";
       this.logoUrl = './assets/nodejs-indonesia.jpg';
     }
+
 }
