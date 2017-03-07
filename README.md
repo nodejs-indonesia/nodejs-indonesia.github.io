@@ -7,6 +7,10 @@ A GitHub Page for NodeJS Indonesia
 [![Downloads](https://img.shields.io/github/downloads/nodejs-indonesia/nodejs-indonesia.github.io/total.svg)](https://github.com/nodejs-indonesia/nodejs-indonesia.github.io/archive/master.zip)
 
 
+[![NodeJs Indonesia](https://raw.githubusercontent.com/nodejs-indonesia/nodejs-indonesia.github.io/master/nodejs-indonesia.jpg)](https://nodejs-indonesia.github.io/)
+
+
+
 ## Join to our community
 + [Github] (https://github.com/nodejs-indonesia)
 + [Telegram] (https://t.me/nodejs_jakarta)
