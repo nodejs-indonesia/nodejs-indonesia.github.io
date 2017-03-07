@@ -1,9 +1,7 @@
 # nodejs-indonesia.github.io
 A GitHub Page for NodeJS Indonesia
 
-[![npm version](https://badge.fury.io/js/nodejs-indonesia.github.io.svg)](https://badge.fury.io/js/nodejs-indonesia.github.io)
-[![npm](https://img.shields.io/npm/dt/nodejs-indonesia.github.io.svg)](https://www.npmjs.com/package/nodejs-indonesia.github.io)
-[![npm](https://img.shields.io/npm/l/nodejs-indonesia.github.io.svg)](http://opensource.org/licenses/MIT)
+[![Downloads](https://img.shields.io/github/downloads/nodejs-indonesia/nodejs-indonesia.github.io/total.svg)](https://github.com/nodejs-indonesia/nodejs-indonesia.github.io/archive/master.zip)
 
 ## Join to our community
 + [Github] (https://github.com/nodejs-indonesia)
