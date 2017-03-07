@@ -1,6 +1,6 @@
 /*!
  * Copyright Irfan Maulana - 2017
- * Developed for FrontEndID
+ * Developed for NodeJs Indonesia
  */
 
 // MIXIN VARIABLE
@@ -18,20 +18,3 @@
 // VARIABLE DEFINITION
 @import "variables/colors";
 @import "variables/settings";
-
-// base body
-body{
-	background-color: #eaeae9;
-}
-
-// BASE AND HELPERS
-@import "helpers/normalize";
-@import "helpers/base";
-
-
-// COMPONENTS
-@import "components/main";
-@import "components/header";
-@import "components/nav";
-@import "components/social";
-@import "components/footer";

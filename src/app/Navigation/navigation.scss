@@ -1,5 +1,7 @@
+@import "../../scss/base-style";
+
 .nav{
-		
+
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -15,7 +17,7 @@
 		padding: 1.5em;
 	}
 
-	&__logo{        
+	&__logo{
 		background-color: #fff;
     	border-radius: .5em;
     	height: 60px;

@@ -1,0 +1,10 @@
+@import "scss/base-style";
+
+// base body
+body{
+	background-color: #eaeae9;
+}
+
+// BASE AND HELPERS
+@import "scss/helpers/normalize";
+@import "scss/helpers/base";

@@ -1,0 +1,22 @@
+@import "../../scss/base-style";
+
+.social{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a{
+    text-decoration: none;
+    color: #999;
+    font-size: 4rem;
+
+    :hover{
+      color: #008c34;
+    }
+  }
+
+  &__item{
+    padding: .3em;
+  }
+}
