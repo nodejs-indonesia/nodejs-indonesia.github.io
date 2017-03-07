@@ -3,6 +3,7 @@ A GitHub Page for NodeJS Indonesia
 
 
 [![License](https://img.shields.io/github/license/nodejs-indonesia/nodejs-indonesia.github.io.svg)](https://github.com/nodejs-indonesia/nodejs-indonesia.github.io)
+[![GitHub contributors](https://img.shields.io/github/contributors/nodejs-indonesia/nodejs-indonesia.github.io.svg)](https://github.com/nodejs-indonesia/nodejs-indonesia.github.io/network/members)
 [![Downloads](https://img.shields.io/github/downloads/nodejs-indonesia/nodejs-indonesia.github.io/total.svg)](https://github.com/nodejs-indonesia/nodejs-indonesia.github.io/archive/master.zip)
 
 
