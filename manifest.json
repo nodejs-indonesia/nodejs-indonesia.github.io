@@ -4,7 +4,7 @@
   "theme_color": "#008c34",
   "background_color": "#008c34",
   "display": "standalone",
-  "start_url": "https://nodejs-indonesia.github.io/",
+  "start_url": "https://nodejs-indonesia.github.io/?utm_source=homescreen",
   "icons": [{
     "src": ".\/favicon\/android-icon-36x36.png",
     "sizes": "36x36",
