@@ -10,8 +10,11 @@ A GitHub Page for NodeJS Indonesia
 [![NodeJs Indonesia](https://raw.githubusercontent.com/nodejs-indonesia/nodejs-indonesia.github.io/master/nodejs-indonesia.jpg)](https://nodejs-indonesia.github.io/)
 
 
+## How to contribute
+[See contibution rule](https://github.com/nodejs-indonesia/nodejs-indonesia.github.io/blob/master/CONTRIBUTE)
 
 ## Join to our community
-+ [Github] (https://github.com/nodejs-indonesia)
-+ [Telegram] (https://t.me/nodejs_jakarta)
-+ [Meetup] (https://www.meetup.com/Node-js-Workshop/)
++ [Github](https://github.com/nodejs-indonesia)
++ [Telegram](https://t.me/nodejs_jakarta)
++ [Meetup](https://www.meetup.com/Node-js-Workshop/)
++ [NodeJs Indonesia Blog](https://nodejs-indonesia.github.io/blogs/)
